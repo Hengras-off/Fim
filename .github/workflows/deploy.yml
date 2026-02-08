@@ -17,13 +17,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          cache: 'yarn'
-          cache-dependency-path: frontend/yarn.lock
           
       - name: Install dependencies
         run: |
           cd frontend
-          yarn install --frozen-lockfile
+          yarn install
           
       - name: Build application
         env:
@@ -39,4 +37,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./frontend/build
-          cname: # Опционально: ваш кастомный домен
