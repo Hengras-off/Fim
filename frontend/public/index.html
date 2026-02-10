@@ -46,6 +46,18 @@
                 document.head.appendChild(tailwindScript);
             }
         </script>
+   <script>
+  (function () {
+    var repo = "/PodPivo_v2.0";
+    var l = window.location;
+
+    // если нет #, но есть путь (например /browse)
+    if (!l.hash && l.pathname.startsWith(repo) && l.pathname !== repo + "/") {
+      var path = l.pathname.replace(repo, "");
+      l.replace(repo + "/#" + path + l.search);
+    }
+  })();
+</script>
     </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
