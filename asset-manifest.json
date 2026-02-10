@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Fim/static/css/main.ef8368ef.css",
-    "main.js": "/Fim/static/js/main.bf5689ce.js",
+    "main.js": "/Fim/static/js/main.b596f77c.js",
     "reactPlayerHls.js": "/Fim/static/js/reactPlayerHls.086fe7b3.chunk.js",
     "reactPlayerDash.js": "/Fim/static/js/reactPlayerDash.09df7c75.chunk.js",
     "reactPlayerMux.js": "/Fim/static/js/reactPlayerMux.c3e813be.chunk.js",
@@ -17,7 +17,7 @@
     "static/js/788.ca42cf6f.chunk.js": "/Fim/static/js/788.ca42cf6f.chunk.js",
     "index.html": "/Fim/index.html",
     "main.ef8368ef.css.map": "/Fim/static/css/main.ef8368ef.css.map",
-    "main.bf5689ce.js.map": "/Fim/static/js/main.bf5689ce.js.map",
+    "main.b596f77c.js.map": "/Fim/static/js/main.b596f77c.js.map",
     "reactPlayerHls.086fe7b3.chunk.js.map": "/Fim/static/js/reactPlayerHls.086fe7b3.chunk.js.map",
     "reactPlayerDash.09df7c75.chunk.js.map": "/Fim/static/js/reactPlayerDash.09df7c75.chunk.js.map",
     "reactPlayerMux.c3e813be.chunk.js.map": "/Fim/static/js/reactPlayerMux.c3e813be.chunk.js.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.ef8368ef.css",
-    "static/js/main.bf5689ce.js"
+    "static/js/main.b596f77c.js"
   ]
 }
